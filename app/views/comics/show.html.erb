@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @comic.name %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @comic.price %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @comic.description %>
+</p>
+
+<p>
+  <strong>Brand:</strong>
+  <%= @comic.brand %>
+</p>
+
+<p>
+  <strong>Rating:</strong>
+  <%= @comic.rating %>
+</p>
+
+<p>
+  <strong>Category:</strong>
+  <%= @comic.category_id %>
+</p>
+
+<%= link_to 'Edit', edit_comic_path(@comic) %> |
+<%= link_to 'Back', comics_path %>
